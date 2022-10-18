@@ -1,0 +1,102 @@
+[
+  {
+    "TenantId": "FPAM",
+    "Tenant": "FPAM"
+  },
+  {
+    "TenantId": "Central",
+    "Tenant": "Central"
+  },
+  {
+    "TenantId": "FPAP",
+    "Tenant": "FPAP 2"
+  },
+  {
+    "TenantId": "FPTM",
+    "Tenant": "FPTM"
+  },
+  {
+    "TenantId": "PBP",
+    "Tenant": "PBP"
+  },
+  {
+    "TenantId": "PHCM",
+    "Tenant": "PHCM"
+  },
+  {
+    "TenantId": "FPPS",
+    "Tenant": "FPPS"
+  },
+  {
+    "TenantId": "FPGP",
+    "Tenant": "FPGP"
+  },
+  {
+    "TenantId": "FPPH",
+    "Tenant": "PPH"
+  },
+  {
+    "TenantId": "FPKC",
+    "Tenant": "FPKC"
+  },
+  {
+    "TenantId": "PHBK",
+    "Tenant": "PHBK"
+  },
+  {
+    "TenantId": "FPSV",
+    "Tenant": "FPSV"
+  },
+  {
+    "TenantId": "FPGM",
+    "Tenant": "FPGM"
+  },
+  {
+    "TenantId": "Park",
+    "Tenant": "Park"
+  },
+  {
+    "TenantId": "FPTP",
+    "Tenant": "FPTP"
+  },
+  {
+    "TenantId": "PHKK",
+    "Tenant": "PHKK"
+  },
+  {
+    "TenantId": "PHKR",
+    "Tenant": "PHKR"
+  },
+  {
+    "TenantId": "PBT",
+    "Tenant": "PBT"
+  },
+  {
+    "TenantId": "PTK",
+    "Tenant": "PTK"
+  },
+  {
+    "TenantId": "PPK",
+    "Tenant": "PPK"
+  },
+  {
+    "TenantId": "PTP",
+    "Tenant": "PTP"
+  },
+  {
+    "TenantId": "PSM",
+    "Tenant": "PSM"
+  },
+  {
+    "TenantId": "PSV",
+    "Tenant": "PSV"
+  },
+  {
+    "TenantId": "PCM",
+    "Tenant": "PCM"
+  },
+  {
+    "TenantId": "PHRM",
+    "Tenant": "PHRM"
+  }
+]

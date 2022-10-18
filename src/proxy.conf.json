@@ -1,0 +1,11 @@
+{
+  "/api/*": {
+      "target": "https://dm89jr0mw4.execute-api.ap-southeast-1.amazonaws.com",
+      "secure": false,
+      "pathRewrite": {
+        "^/api": "^/dev"
+      },
+      "changeOrigin": false,
+      "logLevel": "debug"
+  }
+}

@@ -1,0 +1,1859 @@
+{
+  "data": [
+    {
+      "id": "634622226479c8866e7c2ce3",
+      "code": "223d9af5-c266-4e5b-b12a-0f670faf142a",
+      "name": "consectetur minim",
+      "description": "ipsum nulla fugiat",
+      "image": "http://placehold.it/32x32",
+      "price": 65,
+      "category": "Fitness",
+      "quantity": 44,
+      "inventoryStatus": "INSTOCK",
+      "rating": 3,
+      "orders": [
+        {
+          "id": "6346222208e3db70c85d715a",
+          "productCode": "8e69c29d-7248-4202-bb52-b827bf6381bc",
+          "date": "2015-07-21",
+          "amount": 89.8953,
+          "quantity": 56,
+          "customer": "English Burke",
+          "status": "PENDING"
+        },
+        {
+          "id": "634622227fd9a2a67299e462",
+          "productCode": "e61ea739-3f63-436a-b0eb-1ccb80d4014f",
+          "date": "2017-09-25",
+          "amount": 60.8182,
+          "quantity": 23,
+          "customer": "Barnett Rodgers",
+          "status": "CANCELLED"
+        },
+        {
+          "id": "634622222842110793045be8",
+          "productCode": "d4253443-4236-45a2-b9f0-6f198da90189",
+          "date": "2022-09-23",
+          "amount": 24.6527,
+          "quantity": 91,
+          "customer": "Payne Monroe",
+          "status": "DELIVERED"
+        },
+        {
+          "id": "634622228687b83c4e13419d",
+          "productCode": "fc675807-ad60-459f-ae01-3d8a4224777b",
+          "date": "2021-12-03",
+          "amount": 17.4984,
+          "quantity": 40,
+          "customer": "Baldwin Warren",
+          "status": "DELIVERED"
+        }
+      ]
+    },
+    {
+      "id": "63462222f4fd6a2486a22ae5",
+      "code": "692a5b43-a369-477c-9299-6ad4c1d3fb4e",
+      "name": "elit ea",
+      "description": "aliquip commodo pariatur",
+      "image": "http://placehold.it/32x32",
+      "price": 65,
+      "category": "Clothing",
+      "quantity": 51,
+      "inventoryStatus": "INSTOCK",
+      "rating": 4,
+      "orders": [
+        {
+          "id": "63462222189f7f4006e3648f",
+          "productCode": "b350a291-01fc-495e-8f2b-03bb4d5c8555",
+          "date": "2019-10-08",
+          "amount": 20.5459,
+          "quantity": 5,
+          "customer": "Whitaker David",
+          "status": "DELIVERED"
+        },
+        {
+          "id": "6346222231dcc6acdb5439a1",
+          "productCode": "3cf9fbe2-2248-4a11-9388-522409ec7e7f",
+          "date": "2018-12-27",
+          "amount": 97.7099,
+          "quantity": 85,
+          "customer": "Loretta Leon",
+          "status": "DELIVERED"
+        },
+        {
+          "id": "63462222244af170cf64374c",
+          "productCode": "7fdda2b7-2003-416d-b46f-95c17d5fa21f",
+          "date": "2019-01-17",
+          "amount": 54.4455,
+          "quantity": 11,
+          "customer": "Wendy Mcpherson",
+          "status": "DELIVERED"
+        },
+        {
+          "id": "63462222d2404f99a7cc463e",
+          "productCode": "bc4bc5f0-8eac-48ad-b155-b2b65ab28c6d",
+          "date": "2015-03-25",
+          "amount": 67.5622,
+          "quantity": 12,
+          "customer": "Combs Hooper",
+          "status": "DELIVERED"
+        }
+      ]
+    },
+    {
+      "id": "63462222c9cfe5d37c2820c2",
+      "code": "a0330757-099b-4959-98c6-077f6dcda457",
+      "name": "qui aute",
+      "description": "officia ullamco proident",
+      "image": "http://placehold.it/32x32",
+      "price": 65,
+      "category": "Clothing",
+      "quantity": 100,
+      "inventoryStatus": "INSTOCK",
+      "rating": 1,
+      "orders": [
+        {
+          "id": "63462222f108f34837963a1c",
+          "productCode": "fd41170a-83b1-470c-b3ca-9462afb844f7",
+          "date": "2016-02-03",
+          "amount": 38.3199,
+          "quantity": 96,
+          "customer": "Keller Jensen",
+          "status": "DELIVERED"
+        },
+        {
+          "id": "63462222132e3e4bceafbe30",
+          "productCode": "a8e9f00e-4259-4b7b-877d-5a9a2710f835",
+          "date": "2017-06-02",
+          "amount": 62.4759,
+          "quantity": 55,
+          "customer": "Marilyn Bowman",
+          "status": "DELIVERED"
+        },
+        {
+          "id": "63462222306611113d356699",
+          "productCode": "4dfd60e9-8dcf-46bd-a53a-9574a34c1839",
+          "date": "2015-03-02",
+          "amount": 9.8336,
+          "quantity": 64,
+          "customer": "Rutledge Rutledge",
+          "status": "CANCELLED"
+        },
+        {
+          "id": "63462222051dd4326e802f8a",
+          "productCode": "cb758e9d-7dc3-4d92-a1ee-d954e9e47aac",
+          "date": "2017-08-05",
+          "amount": 87.5142,
+          "quantity": 100,
+          "customer": "Lambert Green",
+          "status": "DELIVERED"
+        }
+      ]
+    },
+    {
+      "id": "6346222266946a8699e72fc5",
+      "code": "3196a839-ffae-40dd-b33c-60bd6de262d7",
+      "name": "sint aliquip",
+      "description": "est adipisicing sunt",
+      "image": "http://placehold.it/32x32",
+      "price": 65,
+      "category": "Clothing",
+      "quantity": 57,
+      "inventoryStatus": "OUTOFSTOCK",
+      "rating": 0,
+      "orders": [
+        {
+          "id": "63462222fa75f5484402f6ac",
+          "productCode": "9d3508b4-f8a7-4aa6-b411-85c3077e37bd",
+          "date": "2021-01-08",
+          "amount": 19.0298,
+          "quantity": 93,
+          "customer": "Rosa Robertson",
+          "status": "DELIVERED"
+        }
+      ]
+    },
+    {
+      "id": "634622225045f6312f40cd7c",
+      "code": "75751145-3f9c-4c35-8a17-414d54cdb50c",
+      "name": "laborum et",
+      "description": "id enim ea",
+      "image": "http://placehold.it/32x32",
+      "price": 65,
+      "category": "Accessories",
+      "quantity": 78,
+      "inventoryStatus": "OUTOFSTOCK",
+      "rating": 4,
+      "orders": []
+    },
+    {
+      "id": "63462222adc80fb26679ae93",
+      "code": "8f06be84-731d-42b2-83c3-9f537a96e71c",
+      "name": "magna sunt",
+      "description": "ipsum ad est",
+      "image": "http://placehold.it/32x32",
+      "price": 65,
+      "category": "Fitness",
+      "quantity": 19,
+      "inventoryStatus": "LOWSTOCK",
+      "rating": 1,
+      "orders": [
+        {
+          "id": "6346222288663343cfd76d0a",
+          "productCode": "00b75fb2-3fa2-43bd-9d06-29f46372a0b5",
+          "date": "2022-04-18",
+          "amount": 34.7801,
+          "quantity": 99,
+          "customer": "Flowers Sawyer",
+          "status": "PENDING"
+        },
+        {
+          "id": "634622228cb1a01d186e7774",
+          "productCode": "4d32536f-c15f-4b7d-b3ab-a01eab55adae",
+          "date": "2022-01-13",
+          "amount": 80.3424,
+          "quantity": 1,
+          "customer": "Myrna Mcintosh",
+          "status": "DELIVERED"
+        },
+        {
+          "id": "634622225609b29dfa1015b5",
+          "productCode": "d08b7a99-ce20-4dad-9824-d9c560c0cd84",
+          "date": "2016-06-12",
+          "amount": 67.0768,
+          "quantity": 5,
+          "customer": "Tonia Byers",
+          "status": "CANCELLED"
+        }
+      ]
+    },
+    {
+      "id": "63462222e9ab80de8dd81fa1",
+      "code": "abd7f582-78e3-479b-8030-134e781b676c",
+      "name": "et ex",
+      "description": "magna deserunt voluptate",
+      "image": "http://placehold.it/32x32",
+      "price": 65,
+      "category": "Clothing",
+      "quantity": 45,
+      "inventoryStatus": "INSTOCK",
+      "rating": 3,
+      "orders": [
+        {
+          "id": "634622229afeace073221949",
+          "productCode": "d430474b-4190-44fc-9c60-6475ae624645",
+          "date": "2014-03-12",
+          "amount": 22.9102,
+          "quantity": 36,
+          "customer": "Carter Fleming",
+          "status": "RETURNED"
+        },
+        {
+          "id": "6346222213b25a0b59389e27",
+          "productCode": "1844107c-b42c-4c3c-95d9-e5fc5fc7b740",
+          "date": "2017-05-18",
+          "amount": 86.2104,
+          "quantity": 75,
+          "customer": "Kimberly Padilla",
+          "status": "PENDING"
+        },
+        {
+          "id": "6346222200fdec4b41fddacf",
+          "productCode": "58304249-76e6-40e5-955a-d513ac221f05",
+          "date": "2017-09-30",
+          "amount": 59.3167,
+          "quantity": 11,
+          "customer": "Wilson Carlson",
+          "status": "CANCELLED"
+        }
+      ]
+    },
+    {
+      "id": "634622228b6026394f10fa4c",
+      "code": "3e3f1b74-ab93-4d3a-b11c-8324c1bbdb10",
+      "name": "dolore ex",
+      "description": "amet eiusmod magna",
+      "image": "http://placehold.it/32x32",
+      "price": 65,
+      "category": "Accessories",
+      "quantity": 68,
+      "inventoryStatus": "INSTOCK",
+      "rating": 1,
+      "orders": [
+        {
+          "id": "63462222397f5aed82f300b4",
+          "productCode": "84071513-d9df-453f-a805-2745549cd2ad",
+          "date": "2019-05-04",
+          "amount": 42.255,
+          "quantity": 15,
+          "customer": "Cox Wilder",
+          "status": "RETURNED"
+        },
+        {
+          "id": "63462222c7aa843ead0b53e4",
+          "productCode": "fa0b831e-7f39-4147-ad4e-94d0bd12d27b",
+          "date": "2019-01-31",
+          "amount": 91.3545,
+          "quantity": 50,
+          "customer": "Audra Sherman",
+          "status": "CANCELLED"
+        },
+        {
+          "id": "63462222a068937d6e22e710",
+          "productCode": "83a23195-29ba-41fb-930d-72a8435a611d",
+          "date": "2018-01-08",
+          "amount": 49.5207,
+          "quantity": 69,
+          "customer": "Malone Gross",
+          "status": "CANCELLED"
+        },
+        {
+          "id": "6346222262c1c802f3b9f067",
+          "productCode": "28921a12-9b01-4feb-8586-f353ac1ac648",
+          "date": "2017-10-08",
+          "amount": 49.416,
+          "quantity": 36,
+          "customer": "Nguyen Mathews",
+          "status": "DELIVERED"
+        },
+        {
+          "id": "63462222076d79346a4a0e2f",
+          "productCode": "28524f94-6123-433f-943e-9a003b255a3d",
+          "date": "2017-11-23",
+          "amount": 98.7353,
+          "quantity": 98,
+          "customer": "Marisa Banks",
+          "status": "PENDING"
+        }
+      ]
+    },
+    {
+      "id": "63462222ab9b5ca0dbda859a",
+      "code": "b7902607-9919-488b-9aab-e22e9310335c",
+      "name": "sit excepteur",
+      "description": "qui fugiat fugiat",
+      "image": "http://placehold.it/32x32",
+      "price": 65,
+      "category": "Accessories",
+      "quantity": 61,
+      "inventoryStatus": "OUTOFSTOCK",
+      "rating": 5,
+      "orders": [
+        {
+          "id": "63462222af87443fb73b3989",
+          "productCode": "76b3638f-f03a-4ce9-8d8b-086646bd44c2",
+          "date": "2021-04-22",
+          "amount": 20.9832,
+          "quantity": 95,
+          "customer": "Francesca Wolf",
+          "status": "RETURNED"
+        },
+        {
+          "id": "63462222e026ac29e3060b30",
+          "productCode": "ab6d9ad5-2f90-4265-a2e5-04eca3511303",
+          "date": "2014-02-09",
+          "amount": 55.344,
+          "quantity": 66,
+          "customer": "Wall Stein",
+          "status": "PENDING"
+        }
+      ]
+    },
+    {
+      "id": "6346222202b6035fbabd592a",
+      "code": "9dd8ea46-fa6b-40ea-8c51-3bca20444d45",
+      "name": "occaecat veniam",
+      "description": "laboris labore dolore",
+      "image": "http://placehold.it/32x32",
+      "price": 65,
+      "category": "Fitness",
+      "quantity": 99,
+      "inventoryStatus": "LOWSTOCK",
+      "rating": 3,
+      "orders": [
+        {
+          "id": "63462222b199f2eed7291c9c",
+          "productCode": "4245cef3-be9d-429d-9f02-27a391dae6a2",
+          "date": "2019-10-28",
+          "amount": 5.676,
+          "quantity": 55,
+          "customer": "Mcmahon Ashley",
+          "status": "RETURNED"
+        },
+        {
+          "id": "63462222b5af4a17feb829c4",
+          "productCode": "ceac5d25-f354-4b55-80f7-b3f80ab5c99d",
+          "date": "2018-06-16",
+          "amount": 69.8782,
+          "quantity": 48,
+          "customer": "Howard Gordon",
+          "status": "RETURNED"
+        }
+      ]
+    },
+    {
+      "id": "634622226c9ecc164b2ed602",
+      "code": "1ced3628-a0a3-4dd3-8a84-eb61ebaf7f3d",
+      "name": "eu Lorem",
+      "description": "ad esse ad",
+      "image": "http://placehold.it/32x32",
+      "price": 65,
+      "category": "Fitness",
+      "quantity": 33,
+      "inventoryStatus": "INSTOCK",
+      "rating": 3,
+      "orders": [
+        {
+          "id": "6346222210ffdb7b3f99088e",
+          "productCode": "f91ed744-9972-45b6-adec-36b2437c457a",
+          "date": "2021-08-17",
+          "amount": 76.8509,
+          "quantity": 41,
+          "customer": "Cristina Vazquez",
+          "status": "DELIVERED"
+        },
+        {
+          "id": "63462222a887f141a232917f",
+          "productCode": "7b2a270f-7062-4ba4-afd1-83ef8c59493f",
+          "date": "2021-01-24",
+          "amount": 44.6063,
+          "quantity": 47,
+          "customer": "Nadine Randall",
+          "status": "RETURNED"
+        },
+        {
+          "id": "63462222e2e759f4a745c50f",
+          "productCode": "e9c5a0a3-b3e5-44e7-8cd1-5df5a46995c0",
+          "date": "2021-05-24",
+          "amount": 19.4733,
+          "quantity": 97,
+          "customer": "Tonya Allison",
+          "status": "RETURNED"
+        }
+      ]
+    },
+    {
+      "id": "634622228333245c7e2e67bc",
+      "code": "197a0a88-b006-4448-ac4c-74b0916b26b4",
+      "name": "quis duis",
+      "description": "deserunt tempor qui",
+      "image": "http://placehold.it/32x32",
+      "price": 65,
+      "category": "Clothing",
+      "quantity": 26,
+      "inventoryStatus": "LOWSTOCK",
+      "rating": 3,
+      "orders": [
+        {
+          "id": "634622229a8d4b65d84fe25a",
+          "productCode": "5d3f7637-8fcb-486a-9057-4f99f38caea3",
+          "date": "2018-04-07",
+          "amount": 49.6654,
+          "quantity": 43,
+          "customer": "Glenn Palmer",
+          "status": "CANCELLED"
+        }
+      ]
+    },
+    {
+      "id": "63462222e350e462664c2fb5",
+      "code": "0e2305b6-8dde-44aa-95fa-3b044269d497",
+      "name": "pariatur Lorem",
+      "description": "adipisicing duis minim",
+      "image": "http://placehold.it/32x32",
+      "price": 65,
+      "category": "Electronics",
+      "quantity": 99,
+      "inventoryStatus": "LOWSTOCK",
+      "rating": 3,
+      "orders": []
+    },
+    {
+      "id": "63462222af8efc04c565a841",
+      "code": "7860eaa8-48fd-4f68-ab65-ad4c2ca1cb25",
+      "name": "id ea",
+      "description": "deserunt ipsum est",
+      "image": "http://placehold.it/32x32",
+      "price": 65,
+      "category": "Accessories",
+      "quantity": 63,
+      "inventoryStatus": "INSTOCK",
+      "rating": 5,
+      "orders": [
+        {
+          "id": "634622227ee272afdaf33fb3",
+          "productCode": "6f7a50c0-0ea3-4813-b65c-c60f96beeea1",
+          "date": "2018-05-05",
+          "amount": 8.7246,
+          "quantity": 72,
+          "customer": "Schmidt Tate",
+          "status": "CANCELLED"
+        },
+        {
+          "id": "63462222717f94d7f2ba87a8",
+          "productCode": "0123729b-2588-42db-9741-7ea8db01916f",
+          "date": "2018-08-12",
+          "amount": 99.7725,
+          "quantity": 33,
+          "customer": "Shaffer Fletcher",
+          "status": "DELIVERED"
+        }
+      ]
+    },
+    {
+      "id": "63462222cbf7d46f69df90e0",
+      "code": "70ad9e52-b13c-4b2d-8d3b-d4d1b84194a5",
+      "name": "exercitation sit",
+      "description": "ipsum proident do",
+      "image": "http://placehold.it/32x32",
+      "price": 65,
+      "category": "Accessories",
+      "quantity": 93,
+      "inventoryStatus": "OUTOFSTOCK",
+      "rating": 2,
+      "orders": [
+        {
+          "id": "63462222787c5c6b9e87ed35",
+          "productCode": "bd8a24df-ae75-42e4-839a-4743fa5c1d1d",
+          "date": "2016-12-09",
+          "amount": 95.0018,
+          "quantity": 5,
+          "customer": "Sara Marshall",
+          "status": "PENDING"
+        }
+      ]
+    },
+    {
+      "id": "63462222d2e305025376579b",
+      "code": "14e454a9-f5c3-494d-a976-de6833a90b40",
+      "name": "enim occaecat",
+      "description": "nisi anim fugiat",
+      "image": "http://placehold.it/32x32",
+      "price": 65,
+      "category": "Clothing",
+      "quantity": 8,
+      "inventoryStatus": "INSTOCK",
+      "rating": 2,
+      "orders": [
+        {
+          "id": "63462222f92cff45f1a9e1e0",
+          "productCode": "87eb4e60-6d14-420a-b484-f49e9bc2f500",
+          "date": "2020-05-03",
+          "amount": 88.3311,
+          "quantity": 33,
+          "customer": "Jacquelyn Jackson",
+          "status": "PENDING"
+        },
+        {
+          "id": "63462222b1f5a3e4760ab778",
+          "productCode": "d246d51c-4771-4045-a95f-a5257d73047e",
+          "date": "2015-11-24",
+          "amount": 29.0001,
+          "quantity": 60,
+          "customer": "Calderon Owens",
+          "status": "DELIVERED"
+        },
+        {
+          "id": "63462222792f01ff915859d5",
+          "productCode": "f3c6467e-9be1-4e77-9705-97ddf8fb15e7",
+          "date": "2018-03-08",
+          "amount": 99.3719,
+          "quantity": 62,
+          "customer": "Finley Fox",
+          "status": "DELIVERED"
+        },
+        {
+          "id": "6346222256b33cf3126d49d3",
+          "productCode": "3c590c2d-b5c2-4248-80e8-bb9fb5b45c13",
+          "date": "2019-12-18",
+          "amount": 14.8486,
+          "quantity": 28,
+          "customer": "Arline Mcconnell",
+          "status": "CANCELLED"
+        },
+        {
+          "id": "634622225585df4f27f9c836",
+          "productCode": "9f1a3154-d0dd-41b9-b659-409a8ecf5e59",
+          "date": "2018-10-18",
+          "amount": 4.3623,
+          "quantity": 35,
+          "customer": "Alejandra Valdez",
+          "status": "CANCELLED"
+        }
+      ]
+    },
+    {
+      "id": "634622227fd4bd70a50ed201",
+      "code": "5100cbf5-d903-41b0-b240-320fa5006ebb",
+      "name": "deserunt qui",
+      "description": "adipisicing sunt commodo",
+      "image": "http://placehold.it/32x32",
+      "price": 65,
+      "category": "Fitness",
+      "quantity": 62,
+      "inventoryStatus": "INSTOCK",
+      "rating": 0,
+      "orders": [
+        {
+          "id": "6346222277e1d933ad38d186",
+          "productCode": "bd9a261c-9f83-46c8-9d6b-0c18770325cc",
+          "date": "2014-03-11",
+          "amount": 91.7974,
+          "quantity": 3,
+          "customer": "Norma Mcclure",
+          "status": "RETURNED"
+        },
+        {
+          "id": "6346222298ee66323cd0a229",
+          "productCode": "43347021-8d0d-4dc3-bd46-da5a02e0df0a",
+          "date": "2014-08-12",
+          "amount": 18.0844,
+          "quantity": 19,
+          "customer": "Hammond Valenzuela",
+          "status": "RETURNED"
+        },
+        {
+          "id": "6346222284432c66feafa43d",
+          "productCode": "c4ae73ec-f078-4e38-ad25-cd4ea392ea2a",
+          "date": "2018-04-29",
+          "amount": 75.2442,
+          "quantity": 14,
+          "customer": "Kristie Everett",
+          "status": "DELIVERED"
+        },
+        {
+          "id": "63462222f25a8cfd031de207",
+          "productCode": "42966a81-72bf-4d44-873e-3602b0bce4ad",
+          "date": "2022-06-09",
+          "amount": 79.2211,
+          "quantity": 38,
+          "customer": "Stephenson Coffey",
+          "status": "DELIVERED"
+        },
+        {
+          "id": "63462222e6d3f3ee8e52d1d9",
+          "productCode": "6cc25e85-ce94-4376-9e01-c2e6d6e76f35",
+          "date": "2021-06-11",
+          "amount": 87.6826,
+          "quantity": 87,
+          "customer": "Bridgett Holder",
+          "status": "RETURNED"
+        }
+      ]
+    },
+    {
+      "id": "6346222206d075a9acd7ffe6",
+      "code": "640af2ed-267c-4225-8979-209382f4e868",
+      "name": "ea cillum",
+      "description": "aliqua esse anim",
+      "image": "http://placehold.it/32x32",
+      "price": 65,
+      "category": "Fitness",
+      "quantity": 67,
+      "inventoryStatus": "LOWSTOCK",
+      "rating": 2,
+      "orders": [
+        {
+          "id": "634622224a74b4aefa6cfa44",
+          "productCode": "86081db3-7145-4713-a524-d63a046fa97c",
+          "date": "2020-01-29",
+          "amount": 51.8772,
+          "quantity": 86,
+          "customer": "Valenzuela Mcbride",
+          "status": "CANCELLED"
+        },
+        {
+          "id": "6346222272272035b6c44c73",
+          "productCode": "8e3fbc61-d664-436c-87f3-7b6ee9aa027f",
+          "date": "2017-01-23",
+          "amount": 77.1171,
+          "quantity": 67,
+          "customer": "Reyna Morales",
+          "status": "RETURNED"
+        },
+        {
+          "id": "634622229e5519571588341d",
+          "productCode": "473cd98d-f06e-4ce1-a2b3-ba52a2029335",
+          "date": "2020-11-16",
+          "amount": 48.7126,
+          "quantity": 82,
+          "customer": "Alvarado Simpson",
+          "status": "DELIVERED"
+        },
+        {
+          "id": "6346222250696be6a4c82ddf",
+          "productCode": "614a0929-8792-4849-80a5-55ed98ca79b6",
+          "date": "2018-10-12",
+          "amount": 38.3865,
+          "quantity": 79,
+          "customer": "Solis Bradford",
+          "status": "DELIVERED"
+        }
+      ]
+    },
+    {
+      "id": "63462222d153f8edf972a197",
+      "code": "dddbf3f1-4314-44b3-b253-2d794ee1c4b1",
+      "name": "voluptate sunt",
+      "description": "enim commodo proident",
+      "image": "http://placehold.it/32x32",
+      "price": 65,
+      "category": "Accessories",
+      "quantity": 73,
+      "inventoryStatus": "INSTOCK",
+      "rating": 1,
+      "orders": [
+        {
+          "id": "63462222273aaeefdd06b5ba",
+          "productCode": "22d0c3bb-a2b2-453c-aaae-a4104793898d",
+          "date": "2018-05-19",
+          "amount": 63.4158,
+          "quantity": 44,
+          "customer": "Linda Jennings",
+          "status": "DELIVERED"
+        },
+        {
+          "id": "6346222202cc8f1d6a072d24",
+          "productCode": "f313d408-fe78-4c78-9f69-3d710c4c99c4",
+          "date": "2019-04-07",
+          "amount": 84.2826,
+          "quantity": 68,
+          "customer": "Mason Conrad",
+          "status": "CANCELLED"
+        },
+        {
+          "id": "634622226907f3f2d5c1b5af",
+          "productCode": "2039c9f2-e546-4047-852a-944bdb846bb9",
+          "date": "2017-01-01",
+          "amount": 21.982,
+          "quantity": 28,
+          "customer": "Meghan Olson",
+          "status": "DELIVERED"
+        },
+        {
+          "id": "63462222f3b71331e4c6fcb2",
+          "productCode": "5dd9ffce-9a02-4acf-8d65-d0d7b9a11c83",
+          "date": "2016-04-21",
+          "amount": 91.5901,
+          "quantity": 81,
+          "customer": "Deanne Duran",
+          "status": "DELIVERED"
+        },
+        {
+          "id": "6346222278158a1e3ca7256e",
+          "productCode": "7cbcf7d0-2099-4407-9af2-ddf0946c0590",
+          "date": "2016-09-09",
+          "amount": 3.1907,
+          "quantity": 34,
+          "customer": "Yesenia Blackburn",
+          "status": "DELIVERED"
+        }
+      ]
+    },
+    {
+      "id": "634622225e0528114db09b88",
+      "code": "bdf27b01-08d7-4299-9e67-1e425851de3a",
+      "name": "aute sit",
+      "description": "deserunt ex fugiat",
+      "image": "http://placehold.it/32x32",
+      "price": 65,
+      "category": "Fitness",
+      "quantity": 24,
+      "inventoryStatus": "LOWSTOCK",
+      "rating": 1,
+      "orders": [
+        {
+          "id": "634622223d03dfb947a2ad6d",
+          "productCode": "690e260e-61c2-4b25-af88-d14d1898b844",
+          "date": "2017-01-30",
+          "amount": 28.1948,
+          "quantity": 72,
+          "customer": "Chang Humphrey",
+          "status": "RETURNED"
+        },
+        {
+          "id": "634622220d841399f1e41e50",
+          "productCode": "3b94c555-09e1-4acc-a093-12b655ceb7b8",
+          "date": "2022-03-30",
+          "amount": 48.0973,
+          "quantity": 22,
+          "customer": "Lena Keith",
+          "status": "DELIVERED"
+        },
+        {
+          "id": "634622224aa53fe8a48f1f07",
+          "productCode": "43ef6dc0-9797-4ecd-87d9-332538a434ea",
+          "date": "2021-06-27",
+          "amount": 56.3898,
+          "quantity": 21,
+          "customer": "Keith Wong",
+          "status": "RETURNED"
+        },
+        {
+          "id": "63462222446c1514a54a30c8",
+          "productCode": "4fca45f4-bf0a-4b24-8738-47e9796d7cb6",
+          "date": "2018-10-27",
+          "amount": 64.3171,
+          "quantity": 70,
+          "customer": "Celeste Carter",
+          "status": "DELIVERED"
+        }
+      ]
+    },
+    {
+      "id": "634622226e8b2d09d9fb2712",
+      "code": "7d0801fd-58dd-449e-b94d-c5f04d1ddd1a",
+      "name": "non excepteur",
+      "description": "anim ex aliqua",
+      "image": "http://placehold.it/32x32",
+      "price": 65,
+      "category": "Electronics",
+      "quantity": 81,
+      "inventoryStatus": "LOWSTOCK",
+      "rating": 4,
+      "orders": [
+        {
+          "id": "6346222216b0e9b420831d79",
+          "productCode": "1baaa14a-b4f1-4eea-9720-ea0747d610f4",
+          "date": "2015-09-08",
+          "amount": 68.3037,
+          "quantity": 84,
+          "customer": "Casey Bell",
+          "status": "RETURNED"
+        }
+      ]
+    },
+    {
+      "id": "63462222409afa059aa16cff",
+      "code": "49086035-e69a-497b-884a-89df75b43123",
+      "name": "ullamco elit",
+      "description": "consequat occaecat tempor",
+      "image": "http://placehold.it/32x32",
+      "price": 65,
+      "category": "Fitness",
+      "quantity": 66,
+      "inventoryStatus": "LOWSTOCK",
+      "rating": 5,
+      "orders": [
+        {
+          "id": "6346222258f73cbc80cffb95",
+          "productCode": "1cc9191f-ab15-467a-8d28-79d868aa5f2a",
+          "date": "2021-04-03",
+          "amount": 95.9677,
+          "quantity": 3,
+          "customer": "Sherman Vincent",
+          "status": "DELIVERED"
+        },
+        {
+          "id": "634622225dea034922e52f13",
+          "productCode": "9dce2b48-105b-4af9-af63-a4f9a6d3d83b",
+          "date": "2019-11-24",
+          "amount": 51.8475,
+          "quantity": 20,
+          "customer": "Humphrey Snow",
+          "status": "DELIVERED"
+        },
+        {
+          "id": "634622226de6e51920475e45",
+          "productCode": "19e1e875-0e5e-448d-b25f-6cf39cb6214b",
+          "date": "2014-03-01",
+          "amount": 44.9283,
+          "quantity": 40,
+          "customer": "Leslie Le",
+          "status": "DELIVERED"
+        }
+      ]
+    },
+    {
+      "id": "63462222b299201e19ce76a4",
+      "code": "47a69bd8-8a31-44a0-a5bc-7e32bad0fa1d",
+      "name": "dolore est",
+      "description": "pariatur ea in",
+      "image": "http://placehold.it/32x32",
+      "price": 65,
+      "category": "Electronics",
+      "quantity": 57,
+      "inventoryStatus": "INSTOCK",
+      "rating": 0,
+      "orders": [
+        {
+          "id": "63462222077f2fc718f3166a",
+          "productCode": "2aa9d215-5fd6-42e6-9263-1946fd6918b4",
+          "date": "2019-09-17",
+          "amount": 77.0753,
+          "quantity": 77,
+          "customer": "Monique Benson",
+          "status": "DELIVERED"
+        },
+        {
+          "id": "634622222a1143be0bf93eb9",
+          "productCode": "a921d256-abcd-4f73-b928-4784dd16d513",
+          "date": "2016-03-15",
+          "amount": 26.4215,
+          "quantity": 46,
+          "customer": "Elnora Guerra",
+          "status": "CANCELLED"
+        },
+        {
+          "id": "63462222323dff0aab0aedcb",
+          "productCode": "09c3fe77-442d-4cf0-90f9-cf260bf1a399",
+          "date": "2014-05-10",
+          "amount": 25.48,
+          "quantity": 96,
+          "customer": "Edith Schmidt",
+          "status": "RETURNED"
+        },
+        {
+          "id": "63462222eedd45462cda132d",
+          "productCode": "339bdd27-50a4-41df-b4c0-af7f78deb193",
+          "date": "2015-01-14",
+          "amount": 74.213,
+          "quantity": 74,
+          "customer": "Patel Brady",
+          "status": "PENDING"
+        },
+        {
+          "id": "63462222187104f7f3e5963b",
+          "productCode": "44f78626-8932-4c8a-a5f6-93770149cf53",
+          "date": "2018-08-26",
+          "amount": 87.6181,
+          "quantity": 97,
+          "customer": "Joy Rosa",
+          "status": "DELIVERED"
+        }
+      ]
+    },
+    {
+      "id": "63462222d776c7c1037d4407",
+      "code": "6c211659-e069-4248-ac89-2908afceb54f",
+      "name": "minim do",
+      "description": "adipisicing eu irure",
+      "image": "http://placehold.it/32x32",
+      "price": 65,
+      "category": "Fitness",
+      "quantity": 60,
+      "inventoryStatus": "LOWSTOCK",
+      "rating": 2,
+      "orders": [
+        {
+          "id": "63462222283b4236cc6d5d99",
+          "productCode": "c7c45304-2478-4e66-a3dd-d49e315624d7",
+          "date": "2017-02-10",
+          "amount": 79.2949,
+          "quantity": 36,
+          "customer": "Cecilia Parrish",
+          "status": "DELIVERED"
+        },
+        {
+          "id": "63462222b41f4ae4f0ea457f",
+          "productCode": "2e952290-dc2e-42c0-87a0-f2df30ba7585",
+          "date": "2022-03-04",
+          "amount": 32.52,
+          "quantity": 62,
+          "customer": "Graves Johns",
+          "status": "CANCELLED"
+        },
+        {
+          "id": "6346222202da6cc8d8de2e5e",
+          "productCode": "00de08f1-3ac2-4fa2-9719-620db6dd4997",
+          "date": "2015-03-08",
+          "amount": 70.0225,
+          "quantity": 71,
+          "customer": "Cohen Beck",
+          "status": "CANCELLED"
+        }
+      ]
+    },
+    {
+      "id": "63462222312c198c04bf247e",
+      "code": "09afa27c-abc9-4b5a-9551-4f6cde207091",
+      "name": "consequat occaecat",
+      "description": "ipsum fugiat do",
+      "image": "http://placehold.it/32x32",
+      "price": 65,
+      "category": "Fitness",
+      "quantity": 17,
+      "inventoryStatus": "INSTOCK",
+      "rating": 4,
+      "orders": [
+        {
+          "id": "6346222249399762fec623d0",
+          "productCode": "776665f1-fa4b-4196-a632-5f0034ca8de4",
+          "date": "2018-05-28",
+          "amount": 20.038,
+          "quantity": 22,
+          "customer": "Peterson Gutierrez",
+          "status": "DELIVERED"
+        },
+        {
+          "id": "6346222271006de600985176",
+          "productCode": "0f6f7132-048e-45bb-96e9-254850786acc",
+          "date": "2015-01-12",
+          "amount": 14.2685,
+          "quantity": 3,
+          "customer": "Tiffany Frank",
+          "status": "PENDING"
+        }
+      ]
+    },
+    {
+      "id": "634622225b9730031d1cf137",
+      "code": "555e26ae-ba8b-43fa-8a13-0c0577321184",
+      "name": "ea excepteur",
+      "description": "duis culpa aliquip",
+      "image": "http://placehold.it/32x32",
+      "price": 65,
+      "category": "Fitness",
+      "quantity": 81,
+      "inventoryStatus": "OUTOFSTOCK",
+      "rating": 3,
+      "orders": [
+        {
+          "id": "63462222f323db530ed103bc",
+          "productCode": "664cf909-6858-4c4e-8c6d-37d10623f46c",
+          "date": "2016-11-14",
+          "amount": 81.4383,
+          "quantity": 4,
+          "customer": "Winters Chaney",
+          "status": "DELIVERED"
+        },
+        {
+          "id": "634622222ad3d2f047762c4d",
+          "productCode": "15b8df4e-d002-45fe-bf93-f69dde28dcf3",
+          "date": "2019-02-15",
+          "amount": 51.9861,
+          "quantity": 49,
+          "customer": "Helen Pace",
+          "status": "DELIVERED"
+        },
+        {
+          "id": "6346222265586c27ada057ed",
+          "productCode": "c2b731d4-d8bd-44b7-ab31-a5a518c9466b",
+          "date": "2019-04-03",
+          "amount": 35.5388,
+          "quantity": 11,
+          "customer": "Gay Berry",
+          "status": "PENDING"
+        },
+        {
+          "id": "63462222b3cf6f7de6b0885a",
+          "productCode": "4bcd42b4-7f2a-4f28-8ba9-07b10066409d",
+          "date": "2017-07-07",
+          "amount": 58.9631,
+          "quantity": 39,
+          "customer": "Simmons Lloyd",
+          "status": "CANCELLED"
+        }
+      ]
+    },
+    {
+      "id": "6346222282f818b58089f5d3",
+      "code": "0a1979f0-5acf-49dc-bec3-c7bd1f10a07a",
+      "name": "sunt fugiat",
+      "description": "minim id qui",
+      "image": "http://placehold.it/32x32",
+      "price": 65,
+      "category": "Clothing",
+      "quantity": 21,
+      "inventoryStatus": "LOWSTOCK",
+      "rating": 5,
+      "orders": [
+        {
+          "id": "634622220039855ed2c723f9",
+          "productCode": "a1f49b00-672e-46a4-bcd0-198114dba80b",
+          "date": "2022-07-21",
+          "amount": 66.0198,
+          "quantity": 15,
+          "customer": "Christie Benjamin",
+          "status": "DELIVERED"
+        },
+        {
+          "id": "6346222247333bc102073810",
+          "productCode": "c4bf5a8f-6fe9-4d97-9968-b4dbd3b2dfef",
+          "date": "2022-02-28",
+          "amount": 24.4554,
+          "quantity": 24,
+          "customer": "Davidson Christensen",
+          "status": "PENDING"
+        },
+        {
+          "id": "634622224a2e266834fd3cc3",
+          "productCode": "e982bf55-ce53-4e43-b0e6-875e53d17314",
+          "date": "2014-12-22",
+          "amount": 55.9488,
+          "quantity": 86,
+          "customer": "Evangelina Cotton",
+          "status": "DELIVERED"
+        }
+      ]
+    },
+    {
+      "id": "6346222225fbd208b8606d66",
+      "code": "5093426d-c1de-493f-adc5-f6d576f3d986",
+      "name": "non reprehenderit",
+      "description": "fugiat qui ex",
+      "image": "http://placehold.it/32x32",
+      "price": 65,
+      "category": "Fitness",
+      "quantity": 25,
+      "inventoryStatus": "OUTOFSTOCK",
+      "rating": 2,
+      "orders": [
+        {
+          "id": "63462222234156b2ad56c23a",
+          "productCode": "9ea1fe76-b695-4df7-aac6-6e4f3c95254d",
+          "date": "2020-12-15",
+          "amount": 99.6937,
+          "quantity": 21,
+          "customer": "Paula Clemons",
+          "status": "RETURNED"
+        },
+        {
+          "id": "6346222226eec93adaeca9ff",
+          "productCode": "2374840a-9a88-417e-b12d-420ae02313cb",
+          "date": "2014-07-28",
+          "amount": 29.1953,
+          "quantity": 33,
+          "customer": "Louisa Strickland",
+          "status": "RETURNED"
+        },
+        {
+          "id": "6346222298d4de5fc0b6f9e7",
+          "productCode": "c8716ce6-309c-404e-abeb-8ba67b06b6f8",
+          "date": "2022-07-10",
+          "amount": 2.816,
+          "quantity": 47,
+          "customer": "Luann Harper",
+          "status": "CANCELLED"
+        }
+      ]
+    },
+    {
+      "id": "63462222b54fc47dc741f899",
+      "code": "936168f3-ec30-418c-9c6b-53d5dcd92a16",
+      "name": "tempor ea",
+      "description": "pariatur culpa exercitation",
+      "image": "http://placehold.it/32x32",
+      "price": 65,
+      "category": "Clothing",
+      "quantity": 15,
+      "inventoryStatus": "LOWSTOCK",
+      "rating": 4,
+      "orders": [
+        {
+          "id": "634622226bd4792c414675f8",
+          "productCode": "8cdb6a89-b806-4d6f-b851-c44de5193f22",
+          "date": "2016-07-10",
+          "amount": 12.8853,
+          "quantity": 26,
+          "customer": "Frieda Bolton",
+          "status": "DELIVERED"
+        }
+      ]
+    },
+    {
+      "id": "63462222935cf063c08db71c",
+      "code": "57a2f833-4ccb-48ee-879a-e35ae4ef86a7",
+      "name": "pariatur id",
+      "description": "dolor aliqua consequat",
+      "image": "http://placehold.it/32x32",
+      "price": 65,
+      "category": "Electronics",
+      "quantity": 37,
+      "inventoryStatus": "INSTOCK",
+      "rating": 4,
+      "orders": [
+        {
+          "id": "6346222294e2b0c9b4148ec1",
+          "productCode": "5a3aefc5-3613-467e-bb3e-4ee479c71ec1",
+          "date": "2016-03-24",
+          "amount": 17.2375,
+          "quantity": 81,
+          "customer": "Erickson Henson",
+          "status": "PENDING"
+        },
+        {
+          "id": "634622226fdc27b14b080db0",
+          "productCode": "718d5722-ca3f-4169-9840-a4a32b793c11",
+          "date": "2019-07-09",
+          "amount": 39.4596,
+          "quantity": 36,
+          "customer": "Nellie Shields",
+          "status": "DELIVERED"
+        },
+        {
+          "id": "63462222f0468eb8ab6676bd",
+          "productCode": "b15c4610-4752-4ac3-8cb8-99189c465300",
+          "date": "2015-02-01",
+          "amount": 36.6476,
+          "quantity": 92,
+          "customer": "Terri Whitfield",
+          "status": "RETURNED"
+        },
+        {
+          "id": "63462222b5b7aeb1d4f97f34",
+          "productCode": "ba6d5381-b8d0-4ef9-abec-76ec733ba164",
+          "date": "2021-12-16",
+          "amount": 32.1639,
+          "quantity": 90,
+          "customer": "May Shannon",
+          "status": "PENDING"
+        }
+      ]
+    },
+    {
+      "id": "63462222a49e7cc5cccab250",
+      "code": "15860e47-c816-4ce9-b9bb-c71ecd394b3a",
+      "name": "aute aute",
+      "description": "dolore culpa voluptate",
+      "image": "http://placehold.it/32x32",
+      "price": 65,
+      "category": "Fitness",
+      "quantity": 59,
+      "inventoryStatus": "OUTOFSTOCK",
+      "rating": 5,
+      "orders": [
+        {
+          "id": "634622226f43d90e6c10cce6",
+          "productCode": "164adfa1-6652-4397-be48-7818a7c18f77",
+          "date": "2018-11-03",
+          "amount": 47.2738,
+          "quantity": 26,
+          "customer": "Jacobson Gibson",
+          "status": "DELIVERED"
+        },
+        {
+          "id": "63462222d035d5e24f2056d4",
+          "productCode": "6ec4e93b-5ec9-49b4-8810-26fe3fa00eb6",
+          "date": "2021-09-11",
+          "amount": 77.5821,
+          "quantity": 77,
+          "customer": "Fannie Henderson",
+          "status": "CANCELLED"
+        },
+        {
+          "id": "63462222cd072241bca0b725",
+          "productCode": "8ea7e43e-e1f4-4214-b97f-7cdd79bd2d3f",
+          "date": "2021-06-02",
+          "amount": 85.2411,
+          "quantity": 44,
+          "customer": "Gill Trevino",
+          "status": "RETURNED"
+        },
+        {
+          "id": "63462222a6d530a38fddf622",
+          "productCode": "c66aadf4-5fef-4ca8-9a28-0337ad3eee40",
+          "date": "2019-06-10",
+          "amount": 25.485,
+          "quantity": 38,
+          "customer": "Marshall Gill",
+          "status": "CANCELLED"
+        },
+        {
+          "id": "63462222e946667e5a0012f4",
+          "productCode": "b2aff027-4be0-4a48-a989-739044784e9f",
+          "date": "2015-01-11",
+          "amount": 88.3305,
+          "quantity": 69,
+          "customer": "Arnold Moses",
+          "status": "RETURNED"
+        }
+      ]
+    },
+    {
+      "id": "63462222005e5a9d217ee3f8",
+      "code": "c36e4f2a-8621-458b-acf3-8b454995baec",
+      "name": "aute pariatur",
+      "description": "id deserunt incididunt",
+      "image": "http://placehold.it/32x32",
+      "price": 65,
+      "category": "Accessories",
+      "quantity": 4,
+      "inventoryStatus": "LOWSTOCK",
+      "rating": 5,
+      "orders": []
+    },
+    {
+      "id": "634622224a6c1b3cb4400f5d",
+      "code": "976944ba-fba6-44ed-a484-1c09f0ad2e31",
+      "name": "tempor dolor",
+      "description": "cillum minim mollit",
+      "image": "http://placehold.it/32x32",
+      "price": 65,
+      "category": "Electronics",
+      "quantity": 5,
+      "inventoryStatus": "LOWSTOCK",
+      "rating": 3,
+      "orders": [
+        {
+          "id": "6346222274af21fc8f215996",
+          "productCode": "5126a0ec-6221-4779-a48b-129609d7ca5a",
+          "date": "2014-09-07",
+          "amount": 44.0539,
+          "quantity": 94,
+          "customer": "Tran Dorsey",
+          "status": "DELIVERED"
+        },
+        {
+          "id": "634622228f92cef0ee4040b2",
+          "productCode": "6326b2b5-33fb-41f1-a1e8-977dc47ebe58",
+          "date": "2016-06-19",
+          "amount": 73.7119,
+          "quantity": 90,
+          "customer": "Castillo Bond",
+          "status": "DELIVERED"
+        }
+      ]
+    },
+    {
+      "id": "634622225ecceab06216e823",
+      "code": "548bc971-f583-4083-9b80-d82dac195821",
+      "name": "qui qui",
+      "description": "commodo nulla ea",
+      "image": "http://placehold.it/32x32",
+      "price": 65,
+      "category": "Clothing",
+      "quantity": 24,
+      "inventoryStatus": "OUTOFSTOCK",
+      "rating": 4,
+      "orders": [
+        {
+          "id": "6346222219be1ae62b043879",
+          "productCode": "c7ccb21d-2dc6-4c29-8879-f486f9ec5472",
+          "date": "2019-12-10",
+          "amount": 52.1284,
+          "quantity": 43,
+          "customer": "Phoebe Weeks",
+          "status": "RETURNED"
+        },
+        {
+          "id": "63462222a825142ec9318785",
+          "productCode": "eb2f5831-61d9-4c73-a915-be8f039a2ee0",
+          "date": "2022-08-17",
+          "amount": 97.202,
+          "quantity": 30,
+          "customer": "Perez Figueroa",
+          "status": "DELIVERED"
+        },
+        {
+          "id": "634622225d630fcc1aeabbb9",
+          "productCode": "45cd6ec3-1b49-4d29-85c6-aa4a7b7aae8e",
+          "date": "2019-05-31",
+          "amount": 60.781,
+          "quantity": 71,
+          "customer": "Adele Bauer",
+          "status": "RETURNED"
+        },
+        {
+          "id": "63462222425eeade0fcb5f79",
+          "productCode": "d46cfcd5-ed52-4c5f-9fdc-b56064ce1a94",
+          "date": "2022-02-18",
+          "amount": 57.4105,
+          "quantity": 63,
+          "customer": "Carey Gould",
+          "status": "CANCELLED"
+        }
+      ]
+    },
+    {
+      "id": "6346222284e034750f541693",
+      "code": "e5775f97-9407-4774-b793-8140e80a9fbd",
+      "name": "commodo labore",
+      "description": "quis irure id",
+      "image": "http://placehold.it/32x32",
+      "price": 65,
+      "category": "Clothing",
+      "quantity": 84,
+      "inventoryStatus": "INSTOCK",
+      "rating": 3,
+      "orders": [
+        {
+          "id": "6346222278c3f8a7cb2029e2",
+          "productCode": "fa2092d1-e607-4913-a9ef-e9b0aa03711e",
+          "date": "2014-12-02",
+          "amount": 28.9466,
+          "quantity": 73,
+          "customer": "Carpenter Blankenship",
+          "status": "PENDING"
+        }
+      ]
+    },
+    {
+      "id": "63462222160156648dd3c4c8",
+      "code": "e546864e-8b2e-448d-adce-56f63a9474a4",
+      "name": "ut cupidatat",
+      "description": "sit nostrud et",
+      "image": "http://placehold.it/32x32",
+      "price": 65,
+      "category": "Fitness",
+      "quantity": 78,
+      "inventoryStatus": "OUTOFSTOCK",
+      "rating": 0,
+      "orders": [
+        {
+          "id": "6346222245e5114610e431ea",
+          "productCode": "eaa4c07b-9803-4371-b5dc-500ed49125d0",
+          "date": "2020-12-21",
+          "amount": 91.8984,
+          "quantity": 42,
+          "customer": "Duffy Carney",
+          "status": "PENDING"
+        },
+        {
+          "id": "63462222250c84a7f456c659",
+          "productCode": "db1c23f4-5991-4fb2-bd77-79e4002eafb8",
+          "date": "2020-11-20",
+          "amount": 79.3163,
+          "quantity": 6,
+          "customer": "Tamera Morin",
+          "status": "CANCELLED"
+        },
+        {
+          "id": "634622225bf44a613b8d66be",
+          "productCode": "1e553a5c-7fec-4ce4-86a1-11c82272ac17",
+          "date": "2020-05-10",
+          "amount": 36.7815,
+          "quantity": 10,
+          "customer": "Erika Norman",
+          "status": "DELIVERED"
+        },
+        {
+          "id": "63462222eab4665d966d4713",
+          "productCode": "4dea8bb9-866e-4b6d-895e-eada6661cc9e",
+          "date": "2017-05-01",
+          "amount": 17.4512,
+          "quantity": 93,
+          "customer": "Courtney Huffman",
+          "status": "CANCELLED"
+        },
+        {
+          "id": "63462222191c8f888681b12e",
+          "productCode": "7cd3bbfc-6f2e-4aba-8d09-18752e82c6be",
+          "date": "2016-11-22",
+          "amount": 8.7288,
+          "quantity": 71,
+          "customer": "Copeland Payne",
+          "status": "PENDING"
+        }
+      ]
+    },
+    {
+      "id": "63462222e110383e2b5cb9e4",
+      "code": "bd903b0d-cc81-45a5-a28a-84b394392e30",
+      "name": "non esse",
+      "description": "laborum qui laborum",
+      "image": "http://placehold.it/32x32",
+      "price": 65,
+      "category": "Clothing",
+      "quantity": 2,
+      "inventoryStatus": "INSTOCK",
+      "rating": 0,
+      "orders": [
+        {
+          "id": "63462222bbce3f8d9367fd4b",
+          "productCode": "45cb27a3-591b-4488-b75f-f9a3d95573cc",
+          "date": "2021-03-01",
+          "amount": 29.2977,
+          "quantity": 7,
+          "customer": "Herman Gates",
+          "status": "DELIVERED"
+        }
+      ]
+    },
+    {
+      "id": "63462222c5f5570b069e9c5b",
+      "code": "e05992dd-51b6-40bc-bad0-fde524db9845",
+      "name": "dolor mollit",
+      "description": "cillum aliqua consectetur",
+      "image": "http://placehold.it/32x32",
+      "price": 65,
+      "category": "Accessories",
+      "quantity": 12,
+      "inventoryStatus": "OUTOFSTOCK",
+      "rating": 1,
+      "orders": [
+        {
+          "id": "634622228328af203bd1791e",
+          "productCode": "8599572e-9e36-42f4-803b-fc41cc0b7185",
+          "date": "2019-01-02",
+          "amount": 98.76,
+          "quantity": 39,
+          "customer": "Lenora Reeves",
+          "status": "CANCELLED"
+        },
+        {
+          "id": "6346222210779eb97449fee9",
+          "productCode": "b54bfd31-28e0-46f3-af08-72f4ffd0986b",
+          "date": "2017-08-26",
+          "amount": 74.4363,
+          "quantity": 43,
+          "customer": "Darla Holcomb",
+          "status": "CANCELLED"
+        },
+        {
+          "id": "634622222824bae0a9712644",
+          "productCode": "60c79ab7-71bb-4c10-ae6a-60d84a66aee5",
+          "date": "2014-04-02",
+          "amount": 43.6719,
+          "quantity": 48,
+          "customer": "Reeves Perkins",
+          "status": "CANCELLED"
+        }
+      ]
+    },
+    {
+      "id": "6346222259876bbb4a75605f",
+      "code": "de24234d-9672-4507-a64a-d5e053632975",
+      "name": "consectetur aute",
+      "description": "in enim fugiat",
+      "image": "http://placehold.it/32x32",
+      "price": 65,
+      "category": "Clothing",
+      "quantity": 85,
+      "inventoryStatus": "INSTOCK",
+      "rating": 0,
+      "orders": [
+        {
+          "id": "634622228e53cd6099bcdf91",
+          "productCode": "b4c03128-6637-40fd-a71a-de0291ccdffc",
+          "date": "2015-03-04",
+          "amount": 8.9075,
+          "quantity": 87,
+          "customer": "Louella Wilson",
+          "status": "RETURNED"
+        }
+      ]
+    },
+    {
+      "id": "6346222265cffdafe1aa7453",
+      "code": "4afc8a67-9c54-4ef3-bf00-99326ac71753",
+      "name": "dolor amet",
+      "description": "eu esse quis",
+      "image": "http://placehold.it/32x32",
+      "price": 65,
+      "category": "Fitness",
+      "quantity": 32,
+      "inventoryStatus": "LOWSTOCK",
+      "rating": 2,
+      "orders": [
+        {
+          "id": "6346222290c536622b0e7fd8",
+          "productCode": "09e282d0-5e35-40fa-b915-ad4c0c31bd1a",
+          "date": "2016-10-03",
+          "amount": 56.8375,
+          "quantity": 51,
+          "customer": "Annmarie Welch",
+          "status": "DELIVERED"
+        },
+        {
+          "id": "63462222e2fa267e755a6a28",
+          "productCode": "ad53f572-14b0-49d8-b1b0-f1a94400197e",
+          "date": "2022-08-05",
+          "amount": 19.2939,
+          "quantity": 96,
+          "customer": "Boyd Stout",
+          "status": "RETURNED"
+        }
+      ]
+    },
+    {
+      "id": "634622229639f7415f202fba",
+      "code": "82e028c0-61d1-43c2-b20d-c0f0a97d9efe",
+      "name": "aliquip labore",
+      "description": "culpa ea consequat",
+      "image": "http://placehold.it/32x32",
+      "price": 65,
+      "category": "Electronics",
+      "quantity": 100,
+      "inventoryStatus": "INSTOCK",
+      "rating": 2,
+      "orders": []
+    },
+    {
+      "id": "63462222835d22cc2bb9e460",
+      "code": "4b738049-a2aa-464f-9d4d-e0fc640147f2",
+      "name": "laboris nulla",
+      "description": "voluptate adipisicing mollit",
+      "image": "http://placehold.it/32x32",
+      "price": 65,
+      "category": "Electronics",
+      "quantity": 81,
+      "inventoryStatus": "OUTOFSTOCK",
+      "rating": 3,
+      "orders": [
+        {
+          "id": "6346222223ff7c10c9682693",
+          "productCode": "c9499a21-740b-4396-affe-c6e64e61e568",
+          "date": "2021-09-26",
+          "amount": 9.5563,
+          "quantity": 77,
+          "customer": "Eunice Rocha",
+          "status": "CANCELLED"
+        },
+        {
+          "id": "63462222924c80fbfd91089e",
+          "productCode": "9b745dc7-593d-4731-951b-e023c35fbe03",
+          "date": "2021-04-09",
+          "amount": 27.536,
+          "quantity": 27,
+          "customer": "Nicole Valentine",
+          "status": "RETURNED"
+        },
+        {
+          "id": "6346222261eb08f0ddb2aa30",
+          "productCode": "167b5222-361e-4584-a2ff-16762a485aa1",
+          "date": "2020-12-05",
+          "amount": 92.2158,
+          "quantity": 16,
+          "customer": "Brigitte Becker",
+          "status": "CANCELLED"
+        },
+        {
+          "id": "634622228e7a906a487e48f1",
+          "productCode": "9ca813f0-2c81-4c97-bbd0-c38279db7da4",
+          "date": "2022-08-31",
+          "amount": 38.819,
+          "quantity": 34,
+          "customer": "Merritt Christian",
+          "status": "PENDING"
+        }
+      ]
+    },
+    {
+      "id": "634622226006eb2f6aff1fe6",
+      "code": "3558a0c9-4faa-43cc-87d7-12d394f230fc",
+      "name": "esse tempor",
+      "description": "minim culpa ipsum",
+      "image": "http://placehold.it/32x32",
+      "price": 65,
+      "category": "Electronics",
+      "quantity": 49,
+      "inventoryStatus": "INSTOCK",
+      "rating": 0,
+      "orders": [
+        {
+          "id": "634622220fb1522c6f73118b",
+          "productCode": "c7adc7e1-ed79-4522-9099-460a6819a7cf",
+          "date": "2018-11-08",
+          "amount": 34.1975,
+          "quantity": 71,
+          "customer": "Monica Potts",
+          "status": "RETURNED"
+        },
+        {
+          "id": "634622225c15e3145b3fed72",
+          "productCode": "2964051a-cdad-41db-a9a1-df0ce129d153",
+          "date": "2015-02-02",
+          "amount": 89.5504,
+          "quantity": 50,
+          "customer": "Benton Valencia",
+          "status": "PENDING"
+        },
+        {
+          "id": "6346222216664e126ef2d4cf",
+          "productCode": "a3ff2eee-e04a-4b1c-9ce3-cb85c2a5e4c0",
+          "date": "2022-04-22",
+          "amount": 54.8035,
+          "quantity": 70,
+          "customer": "Bird Vance",
+          "status": "DELIVERED"
+        }
+      ]
+    },
+    {
+      "id": "63462222cf60f0a06bfe8920",
+      "code": "826e603d-5595-4e17-9049-d965ff9f4cdd",
+      "name": "ad laboris",
+      "description": "incididunt mollit commodo",
+      "image": "http://placehold.it/32x32",
+      "price": 65,
+      "category": "Clothing",
+      "quantity": 44,
+      "inventoryStatus": "OUTOFSTOCK",
+      "rating": 1,
+      "orders": []
+    },
+    {
+      "id": "63462222914a09e1270df4db",
+      "code": "f64b5f25-e9a6-44cc-9c3f-300329a3dc16",
+      "name": "ullamco et",
+      "description": "nulla excepteur labore",
+      "image": "http://placehold.it/32x32",
+      "price": 65,
+      "category": "Electronics",
+      "quantity": 93,
+      "inventoryStatus": "OUTOFSTOCK",
+      "rating": 0,
+      "orders": [
+        {
+          "id": "63462222bd2a0767619fb159",
+          "productCode": "55429e42-74d9-4b53-b378-ba8f7a791bd9",
+          "date": "2017-08-27",
+          "amount": 87.7872,
+          "quantity": 26,
+          "customer": "Cathy Dudley",
+          "status": "DELIVERED"
+        }
+      ]
+    },
+    {
+      "id": "63462222e7c488dcbe2e7021",
+      "code": "9154ba46-2d93-4021-b81e-d5dd6dc61914",
+      "name": "quis minim",
+      "description": "consequat culpa ex",
+      "image": "http://placehold.it/32x32",
+      "price": 65,
+      "category": "Clothing",
+      "quantity": 23,
+      "inventoryStatus": "OUTOFSTOCK",
+      "rating": 1,
+      "orders": []
+    },
+    {
+      "id": "634622224a44f023244bee3b",
+      "code": "ab02ecf8-38c2-48f7-b38d-c498c944b681",
+      "name": "non ipsum",
+      "description": "incididunt quis amet",
+      "image": "http://placehold.it/32x32",
+      "price": 65,
+      "category": "Clothing",
+      "quantity": 100,
+      "inventoryStatus": "OUTOFSTOCK",
+      "rating": 5,
+      "orders": [
+        {
+          "id": "63462222c4a5fbdc7b66538a",
+          "productCode": "d5498545-f375-4876-b6b5-321675f5ddb7",
+          "date": "2017-11-20",
+          "amount": 22.8898,
+          "quantity": 36,
+          "customer": "Connie Conner",
+          "status": "DELIVERED"
+        }
+      ]
+    },
+    {
+      "id": "6346222200bb1bff01ffc1e5",
+      "code": "50994b40-e060-4de5-9e7e-fa454883ae85",
+      "name": "nisi minim",
+      "description": "et irure occaecat",
+      "image": "http://placehold.it/32x32",
+      "price": 65,
+      "category": "Fitness",
+      "quantity": 60,
+      "inventoryStatus": "LOWSTOCK",
+      "rating": 5,
+      "orders": [
+        {
+          "id": "63462222ef84ab6132d6183c",
+          "productCode": "77524700-1501-4e2f-91ea-63a25f93c7ee",
+          "date": "2019-12-10",
+          "amount": 49.8396,
+          "quantity": 44,
+          "customer": "Christina Middleton",
+          "status": "DELIVERED"
+        },
+        {
+          "id": "63462222bb8f4e8109d4794b",
+          "productCode": "8a9789b0-cb0d-4603-ae2b-ea082e253ca7",
+          "date": "2015-11-06",
+          "amount": 72.3493,
+          "quantity": 76,
+          "customer": "Bradshaw Clements",
+          "status": "RETURNED"
+        },
+        {
+          "id": "634622225ffa18436944b290",
+          "productCode": "18932921-e132-47eb-8f77-9e300cbe311e",
+          "date": "2020-03-26",
+          "amount": 29.168,
+          "quantity": 46,
+          "customer": "Cleveland Foster",
+          "status": "RETURNED"
+        },
+        {
+          "id": "634622222ca09f57ee240134",
+          "productCode": "6e974d29-1a0c-40f3-9b95-e401c60e124f",
+          "date": "2021-08-27",
+          "amount": 22.0246,
+          "quantity": 2,
+          "customer": "Amalia Rivera",
+          "status": "CANCELLED"
+        },
+        {
+          "id": "6346222201f740c5cf848a10",
+          "productCode": "6f70025f-c46d-4fd1-be07-4052c30a5789",
+          "date": "2021-04-01",
+          "amount": 18.3412,
+          "quantity": 2,
+          "customer": "Shawna Brewer",
+          "status": "PENDING"
+        }
+      ]
+    },
+    {
+      "id": "63462222ec7839d1e30e2bda",
+      "code": "24c414c9-ffd6-4480-94e8-40721c1a68fb",
+      "name": "nulla aliqua",
+      "description": "incididunt do excepteur",
+      "image": "http://placehold.it/32x32",
+      "price": 65,
+      "category": "Clothing",
+      "quantity": 99,
+      "inventoryStatus": "LOWSTOCK",
+      "rating": 0,
+      "orders": [
+        {
+          "id": "63462222ec62467877d7876a",
+          "productCode": "8f229982-2c85-433a-afd3-0532880761a8",
+          "date": "2021-12-06",
+          "amount": 18.6379,
+          "quantity": 27,
+          "customer": "Cortez Mcdaniel",
+          "status": "PENDING"
+        }
+      ]
+    },
+    {
+      "id": "63462222cbbedca5712597fe",
+      "code": "3777e8d4-4ffd-4c9a-8a44-474619117fad",
+      "name": "deserunt minim",
+      "description": "officia consectetur dolore",
+      "image": "http://placehold.it/32x32",
+      "price": 65,
+      "category": "Accessories",
+      "quantity": 23,
+      "inventoryStatus": "LOWSTOCK",
+      "rating": 1,
+      "orders": [
+        {
+          "id": "63462222b3df84feecb90cb3",
+          "productCode": "50f0d8ef-963f-4078-b456-4d2f5220ff0a",
+          "date": "2018-11-08",
+          "amount": 82.9705,
+          "quantity": 72,
+          "customer": "Simpson Stanton",
+          "status": "PENDING"
+        },
+        {
+          "id": "63462222df768f317ede51bf",
+          "productCode": "6d4cab1b-a31f-4b6d-a9e1-521a7588cd32",
+          "date": "2015-02-04",
+          "amount": 57.9196,
+          "quantity": 19,
+          "customer": "Jaclyn Mueller",
+          "status": "CANCELLED"
+        },
+        {
+          "id": "63462222ad8e6526a31deae0",
+          "productCode": "0131ec9a-eb34-43c3-8911-6b93c115eb8f",
+          "date": "2020-12-27",
+          "amount": 43.4156,
+          "quantity": 64,
+          "customer": "Sybil Lindsay",
+          "status": "DELIVERED"
+        }
+      ]
+    }
+  ]
+}

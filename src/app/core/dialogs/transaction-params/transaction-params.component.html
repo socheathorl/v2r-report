@@ -1,0 +1,121 @@
+<div class="dlg-container" [style.maxHeight]="'calc(' + dlgContainerHeight + ' - 5.625rem)'">
+  <strong class="normal-text">WHEN</strong>
+  <hr class="h-line mb-4" />
+  <div class="grid grid-cols-3 grid-flow-col gap-4 pb-4">
+    <label for="calendar" class="flex items-center normal-text">Date</label>
+    <div class="col-span-2">
+      <p-calendar
+        #calendar
+        appendTo="body"
+        inputId="orderDate"
+        styleClass="right"
+        yearRange="2015:2030"
+        selectionMode="range"
+        [monthNavigator]="true"
+        [yearNavigator]="true"
+        [showIcon]="true"
+        [(ngModel)]="params.dateRangeFilter"
+        (onFocus)="calendar.toggle()"
+        (onSelect)="onDateRangeFilterSelected($event)"
+        styleClass="w-full p-calendar-sm"
+      >
+      </p-calendar>
+    </div>
+  </div>
+  <strong class="normal-text">WHERE</strong>
+  <hr class="h-line mb-4" />
+  <div class="grid grid-cols-3 grid-flow-col gap-4 pb-4">
+    <label for="company" class="flex items-center normal-text">Company</label>
+    <div class="col-span-2">
+      <p-dropdown
+        inputId="company"
+        [options]="companies"
+        [(ngModel)]="params.company"
+        optionLabel="label"
+        [filter]="true"
+        filterBy="label"
+        [showClear]="true"
+        placeholder="<<select>>"
+        appendTo="body"
+        styleClass="w-full p-dropdown-sm"
+        (onChange)="onChange($event)"
+      >
+        <ng-template pTemplate="selectedItem">
+          <div *ngIf="params.company">{{ params.company.label }}</div>
+        </ng-template>
+      </p-dropdown>
+    </div>
+  </div>
+  <div class="grid grid-cols-3 grid-flow-col gap-4 pb-4">
+    <label for="tenant" class="flex items-center normal-text">Tenant</label>
+    <div class="col-span-2">
+      <p-dropdown
+        inputId="tenant"
+        [options]="tenants"
+        [(ngModel)]="params.tenant"
+        optionLabel="label"
+        [filter]="true"
+        filterBy="label"
+        [showClear]="true"
+        placeholder="<<select>>"
+        appendTo="body"
+        styleClass="w-full p-dropdown-sm"
+      >
+        <ng-template pTemplate="selectedItem">
+          <div *ngIf="params.tenant">{{ params.tenant.label }}</div>
+        </ng-template>
+      </p-dropdown>
+    </div>
+  </div>
+  <strong class="normal-text">WHAT</strong>
+  <hr class="h-line mb-4" />
+  <div class="grid grid-cols-3 grid-flow-col gap-4 pb-4">
+    <label for="card" class="flex items-center normal-text">Card</label>
+    <div class="col-span-2">
+      <p-dropdown
+        inputId="card"
+        [options]="cards"
+        [(ngModel)]="params.card"
+        optionLabel="label"
+        [filter]="true"
+        filterBy="label"
+        [showClear]="true"
+        placeholder="<<select>>"
+        appendTo="body"
+        styleClass="w-full p-dropdown-sm"
+        [virtualScroll]="true" 
+        [itemSize]="30"
+      >
+        <ng-template let-card pTemplate="item">
+          <p-tag styleClass="mr-2 p-tag-prime" severity="info" [rounded]="true" [value]="card.label"></p-tag> {{card.text || "&#60;&#60;empty&#62;&#62;"}}
+        </ng-template> 
+        <ng-template pTemplate="selectedItem">
+          <div *ngIf="params.card">
+            <p-tag styleClass="mr-2 p-tag-prime" severity="info" [rounded]="true" [value]="params.card?.label!"></p-tag>
+            {{params.card.text || "&#60;&#60;empty&#62;&#62;"}}
+          </div>
+        </ng-template>
+      </p-dropdown>
+    </div>
+  </div>
+</div>
+<div class="dlg-footer">
+  <div class="flex justify-end">
+    <button
+      pButton
+      pRipple
+      type="button"
+      label="RUN"
+      class="p-button-outlined p-button-sm mr-2"
+      (click)="runReport()"
+    ></button>
+    <button
+      pButton
+      pRipple
+      type="button"
+      label="CANCEL"
+      class="p-button-outlined p-button-sm"
+      (click)="ref.close()"
+    ></button>
+  </div>
+</div>

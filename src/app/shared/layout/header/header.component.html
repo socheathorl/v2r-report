@@ -1,0 +1,16 @@
+<p-menubar 
+  [model]="menuItems"
+  styleClass="primary-menu no-radius uppercase"
+  >
+  <ng-template pTemplate="start">
+    <h1 class="text-2xl font-semibold mr-4 text-inherit">Sample Report</h1>
+  </ng-template>
+  <ng-template pTemplate="end">
+    <p-avatar
+      icon="pi pi-user"
+      shape="circle"
+      [style]="{'color': 'rgb(67 56 202)'}"
+      styleClass="hidden lg:flex"
+    ></p-avatar>
+  </ng-template>
+</p-menubar>

@@ -1,0 +1,27 @@
+.h-full-page {
+  height: calc(100vh - #{$header-height});
+  background-color: var(--background-color);
+}
+
+.normal-text {
+  color: var(--text-color);
+}
+
+.rp-box {
+  position: relative;
+  
+  .rp-box-watermark {
+    position: absolute;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1;
+    color: white;
+    z-index: -10;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+}

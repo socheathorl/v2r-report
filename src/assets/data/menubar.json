@@ -1,0 +1,18 @@
+[
+  {
+      "label": "Dashbard",
+      "icon": "pi pi-chart-pie",
+      "routerLink": "/"
+  },
+  {
+      "label": "Report",
+      "icon": "pi pi-file",
+      "items": [
+          {
+            "label": "Transaction", 
+            "icon": "pi pi-chart-bar",
+            "routerLink": "/transactions"
+          }
+      ]
+  }
+]
