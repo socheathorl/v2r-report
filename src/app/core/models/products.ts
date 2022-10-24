@@ -12,3 +12,10 @@ export interface Product {
   orders?: any[];
   loading?: boolean;
 }
+
+export interface S3File {
+  Key?: string;
+  FileName?: string;
+  LastModified?: Date;
+  Size?: number;
+}

@@ -14,6 +14,7 @@ import { LayoutComponent } from './shared/layout/layout.component';
 import { HeaderComponent } from './shared/layout/header/header.component';
 import { DialogsModule } from './core/dialogs/dialogs.module';
 import { DatePipe } from '@angular/common';
+import { MessageService } from 'primeng/api';
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import { DatePipe } from '@angular/common';
   providers: [
     DialogService,
     DatePipe,
+    MessageService,
   ],
   bootstrap: [AppComponent]
 })

@@ -190,6 +190,49 @@
   &.p-button-sm {
     padding: 0.5rem 0.675rem;
   }
+
+  &.btn-secondary {
+    background: var(--background-color);
+    color: var(--primary-text);
+    
+    &:enabled {
+      &:active {
+        background: var(--secondary-background);
+        color: var(--primary-text);
+      }
+    }
+
+    &:enabled {
+      &:hover {
+        background: var(--secondary-background);
+        color: var(--primary-text);
+      }
+    }
+  }
+
+  &.dataview-action-btn {
+    padding: 0.185rem 1rem;
+    background: var(--secondary-background);
+    border-color: var(--secondary-background);
+    color: var(--primary-text);
+    box-shadow: 0 1px 3px 0 var(--secondary-shadow), 0 1px 2px -1px var(--secondary-shadow);
+
+    &:not(.p-disabled) {
+      &:not(.p-highlight) {
+        &:hover {
+          background: var(--background-color);
+          border-color: var(--background-color);
+          color: var(--primary-text);
+        }
+      }
+    }
+  }
+
+  &.p-fileupload-choose {
+    &.dataview-action-btn {
+      padding: 0.385rem 1rem;
+    }
+  }
 }
 
 .p-paginator {
@@ -320,6 +363,10 @@
   &.secondary-skeleton {
     background-color: var(--secondary-background);
   }
+
+  &.trinary-skeleton {
+    background-color: var(--background-color);
+  }
 }
 
 .p-calendar {
@@ -426,6 +473,250 @@
   }
 }
 
+.p-dataview {
+  &.p-dataview-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+    &.p-dataview-grid {
+      .p-dataview-content {
+        .p-grid {
+          display: grid;
+          grid-template-columns: repeat(4, minmax(0, 1fr));
+          gap: 1rem;
+          padding: 1rem;
+
+          .grid-item {
+            background: var(--secondary-background);
+            padding: 1rem;
+            border-radius: 0.3rem;
+            box-shadow: 0 1px 3px 0 var(--secondary-shadow), 0 1px 2px -1px var(--secondary-shadow);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: var(--text-color);
+
+            .grid-item-icon {
+              flex: 0 1 auto;
+              .svg-icon {
+                width: 10rem;
+                fill: var(--text-color);
+              }
+            }
+
+            .grid-item-content {
+              flex: 1 1 auto;
+              margin-top: 0.5rem;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: center;
+              
+              .grid-title {
+                font-size: 1.125rem;
+                font-weight: 700;
+                text-align: center;
+              }
+
+              .grid-description {
+                font-size: 0.875rem;
+                text-align: center;
+              }
+            }
+
+            .grid-action {
+              flex: 0 1 auto;
+              display: flex;
+              flex-direction: row;
+              justify-content: space-between;
+              align-items: center;
+              width: 100%;
+              margin-top: 1rem;
+              padding-top: 0.5rem;
+              border-top: 1px solid var(--secondary-shadow);
+            }
+          }
+        }
+      }
+
+      .p-dataview-emptymessage {
+        padding: 0;
+      }
+    }
+
+    &.p-dataview-list {
+      .p-dataview-content {
+        .p-grid {
+          display: flex;
+          flex-wrap: wrap;
+
+          .list-item {
+            display: flex !important;
+            align-items: center;
+            padding: 1rem;
+            width: 100%;
+            border-bottom: 1px solid var(--secondary-shadow);
+
+            .list-item-icon {
+              .svg-icon {
+                width: 5rem;
+                fill: var(--text-color);
+                margin-right: 2rem;
+              }
+
+              .icon-skeleton {
+                width: 5rem !important;
+                height: 5rem !important;
+                margin-right: 2rem;
+              }
+            }
+
+            .list-item-content {
+              flex: 1 1 0;
+              
+              .list-title {
+                font-size: 1.125rem;
+                font-weight: 700;
+              }
+
+              .list-description {
+                font-size: 0.875rem;
+              }
+            }
+
+            .list-action {
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+            }
+          }
+        }
+      }
+
+      .p-dataview-emptymessage {
+        padding: 1rem;
+      }
+    }
+
+    .p-dataview-header {
+      flex: 0 1 auto; 
+      background: var(--secondary-background);
+      color: var(--text-color);
+      padding: 0.4rem 1rem;
+      box-shadow: 0 1px 3px 0 var(--secondary-shadow), 0 1px 2px -1px var(--secondary-shadow);
+      z-index: 10;
+      border: 1px solid var(--secondary-background);
+      
+      .p-dataview-layout-options {
+        &.p-selectbutton {
+          .p-button {
+            background: var(--secondary-background);
+            border-color: var(--secondary-background);
+            color: var(--primary-text);
+            box-shadow: 0 1px 3px 0 var(--secondary-shadow), 0 1px 2px -1px var(--secondary-shadow);
+
+            &.p-button-icon-only {
+              padding: 0.4rem 1rem;
+            }
+
+            &.p-highlight {
+              background: var(--background-color);
+              border-color: var(--background-color);
+              color: var(--primary-text);
+            }
+
+            &:not(.p-disabled) {
+              &:not(.p-highlight) {
+                &:hover {
+                  background: var(--background-color);
+                  border-color: var(--background-color);
+                  color: var(--primary-text);
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  
+    .p-dataview-content {
+      flex: 1 1 auto;
+      overflow-y: auto;
+      background: var(--background-color);
+      color: var(--text-color);
+    }
+
+    .p-paginator-bottom {
+      flex: 0 1 auto;
+      background: var(--background-color);
+      padding: 0.4rem 1rem;
+      border: solid var(--background-color);
+      color: var(--text-color);
+
+      .p-paginator-first, .p-paginator-prev, .p-paginator-next, .p-paginator-last {
+        min-width: 2rem;
+        height: 2rem;
+        margin: 0 0.1rem;
+        border-radius: 0.4rem;
+        background-color: var(--background-color);
+        border: 2px solid var(--secondary-background);
+        color: var(--primary-text);
+        
+        &:not(.p-disabled) {
+          &:not(.p-highlight) {
+            &:hover {
+              border-color: var(--secondary-background);
+              background: var(--secondary-background);
+              color: var(--primary-text);
+            }
+          }
+        }
+      }
+  
+      .p-paginator-pages {
+        .p-paginator-page {
+          min-width: 2rem;
+          height: 2rem;
+          margin: 0 0.1rem;
+          border-radius: 0.4rem;
+          background-color: var(--background-color);
+          border: 2px solid var(--secondary-background);
+          color: var(--primary-text);
+  
+          &.p-highlight {
+            border-color: var(--secondary-background);
+            background: var(--secondary-background);
+            color: var(--primary-text);
+          }
+          &:not(.p-highlight) {
+            &:hover {
+              border-color: var(--secondary-background);
+              background: var(--secondary-background);
+              color: var(--primary-text);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .p-dataview {
+    &.p-dataview-wrapper {
+      &.p-dataview-grid {
+        .p-dataview-content {
+          .p-grid {
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+          }
+        }
+      }
+    }
+  }
+}
+
 @media screen and (max-width: 960px) {
   .p-menubar {
     .p-menubar-button {
@@ -474,6 +765,82 @@
       &:not(.p-disabled) {
         &:hover {
           background: var(--secondary-background);
+        }
+      }
+    }
+  }
+
+  .p-dataview {
+    &.p-dataview-wrapper {
+      &.p-dataview-grid {
+        .p-dataview-content {
+          .p-grid {
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .p-dataview {
+    &.p-dataview-wrapper {
+      &.p-dataview-grid {
+        .p-dataview-content {
+          .p-grid {
+            grid-template-columns: repeat(1, minmax(0, 1fr));
+          }
+        }
+      }
+
+      &.p-dataview-list {
+        .p-dataview-content {
+          .p-grid {
+            .list-item {
+              flex-direction: column;
+
+              .list-item-icon {
+                .svg-icon {
+                  width: 10rem;
+                  margin-right: 0;
+                }
+
+                .icon-skeleton {
+                  width: 10rem !important;
+                  height: 10rem !important;
+                  margin-right: 0;
+                }
+              }
+
+              .list-item-content {
+                margin-top: 0.5rem;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                .list-title {
+                  text-align: center;
+                }
+  
+                .list-description {
+                  text-align: center;
+                }
+              }
+  
+              .list-action {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                width: 100%;
+                margin-top: 1rem;
+                padding-top: 0.5rem;
+                border-top: 1px solid var(--secondary-shadow);
+              }
+            }
+          }
         }
       }
     }

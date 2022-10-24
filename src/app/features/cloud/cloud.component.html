@@ -1,0 +1,146 @@
+<div class="h-full-page">
+  <p-dataView 
+    #dataview
+    id="dataview"
+    [value]="loading ? fileSkeleton : files" 
+    [paginator]="true" 
+    [rows]="12"
+    [pageLinks]="4"
+    filterBy="Key" 
+    [layout]="layout"
+    (onChangeLayout)="onChangeLayout($event)"
+    styleClass="p-dataview-wrapper"
+  >
+    <ng-template pTemplate="header">
+      <div class="flex flex-row justify-end md:justify-between">
+        <div class="menu-start flex">
+          <input type="search" pInputText class="p-inputtext-xs hidden md:block" placeholder="Search" (change)="onSearch($event)">
+        </div>
+        <div class="menu-end flex">
+          <p-fileUpload 
+            #uploadFile 
+            styleClass="dataview-action-btn mr-2" 
+            mode="basic" 
+            name="profileImage[]" 
+            [customUpload]="true" 
+            (uploadHandler)="onUploadHandler($event)" 
+            [chooseIcon]="uploadIcon" 
+            chooseLabel="" 
+            [auto]="true"
+            [disabled]="loadingUpload"
+            ></p-fileUpload>
+          <p-dataViewLayoutOptions></p-dataViewLayoutOptions>
+        </div>
+      </div>
+    </ng-template>
+    <ng-template let-file pTemplate="listItem">
+      <div class="p-col-12">
+        <div class="list-item">
+          <div class="list-item-icon">
+            <p-skeleton styleClass="secondary-skeleton icon-skeleton" [ngClass]="{'hidden': loading === false }"></p-skeleton>
+            <svg class="svg-icon" [ngClass]="{'hidden': loading === true }" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 470 470" style="enable-background:new 0 0 470 470;" xml:space="preserve">
+              <g>
+                <path d="M360.828,384.339c1.705-1.374,2.798-3.478,2.798-5.839c0-0.066,0-341,0-341c0-4.143-3.357-7.5-7.5-7.5H139.141
+                  C133.79,12.647,117.605,0,98.52,0C79.742,0,63.311,12.514,57.906,30H33.874c-4.143,0-7.5,3.357-7.5,7.5v425
+                  c0,4.143,3.357,7.5,7.5,7.5h238.187c2.425,0,4.527-1.092,5.902-2.794L360.828,384.339z M279.626,444.328V386h58.327
+                  L279.626,444.328z M98.52,15c10.663,0,19.922,6.105,24.482,15H74.036C78.64,21.052,88.011,15,98.52,15z M41.374,45h84.646v52.5
+                  c0,6.893-5.607,12.5-12.5,12.5s-12.5-5.607-12.5-12.5v-30c0-4.143-3.357-7.5-7.5-7.5s-7.5,3.357-7.5,7.5v30
+                  c0,15.163,12.337,27.5,27.5,27.5s27.5-12.337,27.5-27.5V45h207.606v326h-76.5c-4.143,0-7.5,3.357-7.5,7.5V455H41.374V45z"/>
+                <path d="M296.126,345.5c4.143,0,7.5-3.357,7.5-7.5s-3.357-7.5-7.5-7.5H93.874c-4.143,0-7.5,3.357-7.5,7.5s3.357,7.5,7.5,7.5
+                  H296.126z"/>
+                <path d="M93.874,300.5h202.252c4.143,0,7.5-3.357,7.5-7.5s-3.357-7.5-7.5-7.5H93.874c-4.143,0-7.5,3.357-7.5,7.5
+                  S89.731,300.5,93.874,300.5z"/>
+                <path d="M93.874,255.5h202.252c4.143,0,7.5-3.357,7.5-7.5s-3.357-7.5-7.5-7.5H93.874c-4.143,0-7.5,3.357-7.5,7.5
+                  S89.731,255.5,93.874,255.5z"/>
+                <path d="M93.874,210.5h202.252c4.143,0,7.5-3.357,7.5-7.5s-3.357-7.5-7.5-7.5H93.874c-4.143,0-7.5,3.357-7.5,7.5
+                  S89.731,210.5,93.874,210.5z"/>
+                <path d="M93.874,165.5h202.252c4.143,0,7.5-3.357,7.5-7.5s-3.357-7.5-7.5-7.5H93.874c-4.143,0-7.5,3.357-7.5,7.5
+                  S89.731,165.5,93.874,165.5z"/>
+                <path d="M396.126,30h-10c-4.143,0-7.5,3.357-7.5,7.5s3.357,7.5,7.5,7.5h2.5v410h-80.072c-4.143,0-7.5,3.357-7.5,7.5
+                  s3.357,7.5,7.5,7.5h87.572c4.143,0,7.5-3.357,7.5-7.5v-425C403.626,33.357,400.269,30,396.126,30z"/>
+                <path d="M436.126,30h-10c-4.143,0-7.5,3.357-7.5,7.5s3.357,7.5,7.5,7.5h2.5v410h-2.5c-4.143,0-7.5,3.357-7.5,7.5s3.357,7.5,7.5,7.5
+                  h10c4.143,0,7.5-3.357,7.5-7.5v-425C443.626,33.357,440.269,30,436.126,30z"/>
+              </g>
+            </svg>
+          </div>
+          <div class="list-item-content">
+            <div class="list-title">
+              <p-skeleton styleClass="secondary-skeleton mb-1 w-80" height="21px" [ngClass]="{'hidden': loading === false }"></p-skeleton>
+              <span [ngClass]="{'hidden': loading === true }">{{file.Key.split('/').pop()}}</span>
+            </div>
+            <div class="list-description">
+              <p-skeleton styleClass="secondary-skeleton mb-1 w-60" height="17px" [ngClass]="{'hidden': loading === false }"></p-skeleton>
+              <span [ngClass]="{'hidden': loading === true }">Modified Date: {{file.LastModified | date:'short'}}</span>
+            </div>
+            <div class="list-description">
+              <p-skeleton styleClass="secondary-skeleton mb-1 w-40" height="17px" [ngClass]="{'hidden': loading === false }"></p-skeleton>
+              <span [ngClass]="{'hidden': loading === true }">File Size: {{file.Size | number}} Bytes</span>
+            </div>
+          </div>
+          <div class="list-action">
+            <p-skeleton styleClass="secondary-skeleton icon-skeleton mb-1 mt-1 w-32" height="39px" [ngClass]="{'hidden': loading === false }"></p-skeleton>
+            <p-skeleton styleClass="secondary-skeleton icon-skeleton mb-1 mt-1 w-32" height="39px" [ngClass]="{'hidden': loading === false }"></p-skeleton>
+            <p-button [icon]="(loadingDownload && file.Key === selectedFile) ? 'pi pi-spin pi-spinner' : 'pi pi-cloud-download'" styleClass="p-button-sm btn-secondary mb-1 mt-1 w-32" [ngClass]="{'hidden': loading === true }" label="Download" (onClick)="onDownload(file)" [disabled]="(loadingDownload && file.Key === selectedFile)"></p-button>
+            <p-button [icon]="(loadingDelete && file.Key === selectedFile) ? 'pi pi-spin pi-spinner' : 'pi pi-trash'" styleClass="p-button-sm btn-secondary mb-1 mt-1 w-32" [ngClass]="{'hidden': loading === true }" label="Delete" (onClick)="onDelete(file)" [disabled]="(loadingDelete && file.Key === selectedFile)"></p-button>
+          </div>
+        </div>
+      </div>
+    </ng-template>
+    <ng-template let-file pTemplate="gridItem">
+      <div class="grid-item">
+        <div class="grid-item-icon">
+          <p-skeleton styleClass="trinary-skeleton" height="10rem" width="10rem" [ngClass]="{'hidden': loading === false }"></p-skeleton>
+          <svg class="svg-icon" [ngClass]="{'hidden': loading === true }" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 470 470" style="enable-background:new 0 0 470 470;" xml:space="preserve">
+            <g>
+              <path d="M360.828,384.339c1.705-1.374,2.798-3.478,2.798-5.839c0-0.066,0-341,0-341c0-4.143-3.357-7.5-7.5-7.5H139.141
+                C133.79,12.647,117.605,0,98.52,0C79.742,0,63.311,12.514,57.906,30H33.874c-4.143,0-7.5,3.357-7.5,7.5v425
+                c0,4.143,3.357,7.5,7.5,7.5h238.187c2.425,0,4.527-1.092,5.902-2.794L360.828,384.339z M279.626,444.328V386h58.327
+                L279.626,444.328z M98.52,15c10.663,0,19.922,6.105,24.482,15H74.036C78.64,21.052,88.011,15,98.52,15z M41.374,45h84.646v52.5
+                c0,6.893-5.607,12.5-12.5,12.5s-12.5-5.607-12.5-12.5v-30c0-4.143-3.357-7.5-7.5-7.5s-7.5,3.357-7.5,7.5v30
+                c0,15.163,12.337,27.5,27.5,27.5s27.5-12.337,27.5-27.5V45h207.606v326h-76.5c-4.143,0-7.5,3.357-7.5,7.5V455H41.374V45z"/>
+              <path d="M296.126,345.5c4.143,0,7.5-3.357,7.5-7.5s-3.357-7.5-7.5-7.5H93.874c-4.143,0-7.5,3.357-7.5,7.5s3.357,7.5,7.5,7.5
+                H296.126z"/>
+              <path d="M93.874,300.5h202.252c4.143,0,7.5-3.357,7.5-7.5s-3.357-7.5-7.5-7.5H93.874c-4.143,0-7.5,3.357-7.5,7.5
+                S89.731,300.5,93.874,300.5z"/>
+              <path d="M93.874,255.5h202.252c4.143,0,7.5-3.357,7.5-7.5s-3.357-7.5-7.5-7.5H93.874c-4.143,0-7.5,3.357-7.5,7.5
+                S89.731,255.5,93.874,255.5z"/>
+              <path d="M93.874,210.5h202.252c4.143,0,7.5-3.357,7.5-7.5s-3.357-7.5-7.5-7.5H93.874c-4.143,0-7.5,3.357-7.5,7.5
+                S89.731,210.5,93.874,210.5z"/>
+              <path d="M93.874,165.5h202.252c4.143,0,7.5-3.357,7.5-7.5s-3.357-7.5-7.5-7.5H93.874c-4.143,0-7.5,3.357-7.5,7.5
+                S89.731,165.5,93.874,165.5z"/>
+              <path d="M396.126,30h-10c-4.143,0-7.5,3.357-7.5,7.5s3.357,7.5,7.5,7.5h2.5v410h-80.072c-4.143,0-7.5,3.357-7.5,7.5
+                s3.357,7.5,7.5,7.5h87.572c4.143,0,7.5-3.357,7.5-7.5v-425C403.626,33.357,400.269,30,396.126,30z"/>
+              <path d="M436.126,30h-10c-4.143,0-7.5,3.357-7.5,7.5s3.357,7.5,7.5,7.5h2.5v410h-2.5c-4.143,0-7.5,3.357-7.5,7.5s3.357,7.5,7.5,7.5
+                h10c4.143,0,7.5-3.357,7.5-7.5v-425C443.626,33.357,440.269,30,436.126,30z"/>
+            </g>
+            </svg>
+        </div>
+        <div class="grid-item-content">
+          <div class="grid-title">
+            <p-skeleton styleClass="trinary-skeleton mb-1 w-60" height="21px" [ngClass]="{'hidden': loading === false }"></p-skeleton>
+            <span [ngClass]="{'hidden': loading === true }">{{file.Key.split('/').pop()}}</span>
+          </div>
+          <div class="grid-description">
+            <p-skeleton styleClass="trinary-skeleton mb-1 w-60" height="17px" [ngClass]="{'hidden': loading === false }"></p-skeleton>
+            <span [ngClass]="{'hidden': loading === true }">Modified Date: {{file.LastModified | date:'short'}}</span>
+          </div>
+          <div class="grid-description">
+            <p-skeleton styleClass="trinary-skeleton mb-1 w-60" height="17px" [ngClass]="{'hidden': loading === false }"></p-skeleton>
+            <span [ngClass]="{'hidden': loading === true }">File Size: {{file.Size | number}} Bytes</span>
+          </div>
+        </div>
+        <div class="grid-action">
+          <p-skeleton styleClass="trinary-skeleton" height="39px" width="48px" [ngClass]="{'hidden': loading === false }"></p-skeleton>
+          <p-skeleton styleClass="trinary-skeleton" height="39px" width="48px" [ngClass]="{'hidden': loading === false }"></p-skeleton>
+          <p-button [icon]="(loadingDownload && file.Key === selectedFile) ? 'pi pi-spin pi-spinner' : 'pi pi-cloud-download'" styleClass="p-button-sm btn-secondary" [ngClass]="{'hidden': loading === true }" (onClick)="onDownload(file)" [disabled]="(loadingDownload && file.Key === selectedFile)"></p-button>
+          <p-button [icon]="(loadingDelete && file.Key === selectedFile) ? 'pi pi-spin pi-spinner' : 'pi pi-trash'" styleClass="p-button-sm btn-secondary" [ngClass]="{'hidden': loading === true }" (onClick)="onDelete(file)" [disabled]="(loadingDelete && file.Key === selectedFile)"></p-button>
+        </div>
+      </div>
+    </ng-template>
+    <ng-template pTemplate="empty">
+      <div>
+        There is no file. Please upload some files.
+      </div>
+    </ng-template>
+  </p-dataView>
+</div>

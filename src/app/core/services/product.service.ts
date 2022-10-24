@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Product } from '../models/products';
+import { Product, S3File } from '../models/products';
 
 @Injectable({
   providedIn: 'root'
@@ -42,6 +42,13 @@ export class ProductService {
   ];
 
   constructor(private http: HttpClient) { }
+
+  getS3Files() {
+    return this.http.get<any>('assets/data/s3-files.json')
+      .toPromise()
+      .then(res => <S3File[]>res)
+      .then(data => { return data; });
+  }
 
   getProductsSmall() {
     return this.http.get<any>('assets/data/products-small.json')

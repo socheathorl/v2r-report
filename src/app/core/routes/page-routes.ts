@@ -10,5 +10,10 @@ export const PageRoutes: Routes = [
     path: 'transactions',
     loadChildren: () =>
       import("../../features/transactions/transactions.module").then(m => m.TransactionsModule)
+  },
+  {
+    path: 'cloud',
+    loadChildren: () =>
+      import("../../features/cloud/cloud.module").then(m => m.CloudModule)
   }
 ];

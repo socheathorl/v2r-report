@@ -14,5 +14,10 @@
             "routerLink": "/transactions"
           }
       ]
+  },
+  {
+    "label": "Cloud",
+    "icon": "pi pi-cloud",
+    "routerLink": "/cloud"
   }
 ]

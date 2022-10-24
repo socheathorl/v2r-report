@@ -12,6 +12,9 @@ import { DynamicDialogModule } from "primeng/dynamicdialog";
 import { CalendarModule } from 'primeng/calendar';
 import { TagModule } from 'primeng/tag';
 import { ChartModule } from 'primeng/chart';
+import { FileUploadModule } from 'primeng/fileupload';
+import { DataViewModule } from 'primeng/dataview';
+import { ToastModule } from 'primeng/toast';
 
 @NgModule({
   exports: [
@@ -28,6 +31,9 @@ import { ChartModule } from 'primeng/chart';
     CalendarModule,
     TagModule,
     ChartModule,
+    FileUploadModule,
+    DataViewModule,
+    ToastModule,
   ]
 })
 export class AppPrimengModule { }
